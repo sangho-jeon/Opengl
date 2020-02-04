@@ -1,0 +1,7 @@
+﻿view.obj : error LNK2005: "struct scene sc" (?sc@@3Uscene@@A)이(가) phong.obj에 이미 정의되어 있습니다.
+phong.obj : error LNK2005: _main이(가) phong.obj에 이미 정의되어 있습니다.
+phong.obj : error LNK2005: "void __cdecl shutdown(void)" (?shutdown@@YAXXZ)이(가) phong.obj에 이미 정의되어 있습니다.
+phong.obj : error LNK2005: "void __cdecl render(void)" (?render@@YAXXZ)이(가) phong.obj에 이미 정의되어 있습니다.
+phong.obj : error LNK2005: "void __cdecl idle(void)" (?idle@@YAXXZ)이(가) phong.obj에 이미 정의되어 있습니다.
+phong.obj : error LNK2005: "void __cdecl startup(void)" (?startup@@YAXXZ)이(가) phong.obj에 이미 정의되어 있습니다.
+C:\Users\jeons\OneDrive\바탕 화면\opengl\opengl_second_project\Release\opengl_second_project.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
