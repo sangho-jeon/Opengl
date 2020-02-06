@@ -111,33 +111,7 @@
 		sc.tex_object[3] = BMPReader::loadTex("chr_sword.bmp");
 		glActiveTexture(GL_TEXTURE4);
 		sc.tex_object[4] = BMPReader::loadTex("10602_Rubber_Duck_v1_diffuse.bmp");
-		// create the checkerboard pattern
 	
-	
-		//// Define some data to upload into the texture
-		//GLubyte* data = new GLubyte[128 * 128 * 4];
-		//generate_texture(data, 128, 128);
-
-		//glActiveTexture(GL_TEXTURE3);
-		//// Generate a name for the texture
-		//glGenTextures(1, &sc.tex_object[3]);
-		//// Now bind it to the context using the GL_TEXTURE_2D binding point
-		//glBindTexture(GL_TEXTURE_2D, sc.tex_object[3]);
-
-		//// Assume the texture is already bound to the GL_TEXTURE_2D target
-		//glTexImage2D(GL_TEXTURE_2D,  // 2D texture
-		//	0,              // Level 0
-		//	GL_RGB,          // Offset 0, 0
-		//	64, 64, 0,       // 64 x 64 texels, replace entire image
-		//	GL_RGBA,        // Four channel data
-		//	GL_UNSIGNED_BYTE,       // Floating point data
-		//	data);          // Pointer to data
-		//glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-		//glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-		//glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		//glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-
-		//delete[] data;
 	}
 
 	void idle() {
@@ -176,10 +150,10 @@
 		glUniform4fv(glGetUniformLocation(sc.rendering_program, "Light.Position"),
 			1, value_ptr(sc.view*vec4(70.0f*cos(sc.angle*5), 100.0, 70.0f*sin(sc.angle*5), 1.0)));
 
-		/*sc.view = LookAt(vec3((55.0f+sc.r)*cos(sc.angle)- 7.9f, 7.0f + sc.t + abs(12.0f*sin(sc.angle * 5)), (55.0f+sc.r)*sin(sc.angle) - 7.9f), vec3(0.0f, 12.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
-		glUniformMatrix4fv(sc.v_loc, 1, GL_FALSE, value_ptr(sc.view));*/
+		sc.view = LookAt(vec3((55.0f+sc.r)*cos(sc.angle)- 7.9f, 7.0f + sc.t + abs(12.0f*sin(sc.angle * 5)), (55.0f+sc.r)*sin(sc.angle) - 7.9f), vec3(0.0f, 12.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(sc.v_loc, 1, GL_FALSE, value_ptr(sc.view));
 
-		sc.view = LookAt(vec3(60.0f, 50.0f, 60.0f), vec3(0.0f, 12.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
+		//sc.view = LookAt(vec3(60.0f, 50.0f, 60.0f), vec3(0.0f, 12.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
 	
 		/********Object  */
 	

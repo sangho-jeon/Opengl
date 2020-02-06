@@ -1,11 +1,11 @@
 ﻿  phong.cpp
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(55): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(69): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(75): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(79): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(83): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(103): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(104): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(107): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\jeons\onedrive\바탕 화면\opengl\opengl_second_project\opengl_second_project\phong.cpp(108): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  opengl_second_project.vcxproj -> C:\Users\jeons\OneDrive\바탕 화면\opengl\opengl_second_project\Debug\opengl_second_project.exe
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(55): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(69): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(75): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(79): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(83): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(105): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(106): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(109): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\jeons\onedrive\바탕 화면\opengl gitig\opengl_second_project\opengl_second_project\phong.cpp(110): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  opengl_second_project.vcxproj -> C:\Users\jeons\OneDrive\바탕 화면\opengl gitig\opengl_second_project\Debug\opengl_second_project.exe

@@ -94,8 +94,10 @@ void render()
 
 	// Lighting 
 	glUniform4fv(glGetUniformLocation(sc.rendering_program, "Light.Position"),
-		1, value_ptr(sc.view*vec4(50.0f*cos(sc.angle), 100.0f, 50.0f*sin(sc.angle), 1.0f)));
-	sc.view = LookAt(vec3(50.0f, 50.0f, 50.0f), vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
+		1, value_ptr(vec4(50.0f*cos(sc.angle), 100.0f, 50.0f*sin(sc.angle), 1.0f)));
+	
+	
+	sc.view = LookAt(vec3(70.0f*sin(sc.angle), 50.0f, 70.0f*cos(sc.angle)), vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
 	glUniformMatrix4fv(sc.v_loc, 1, GL_FALSE, value_ptr(sc.view));
 	//cube 
 	for (int j = 0; j < 80; j++) {
